@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Lugrasimo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: black;
+            width: 1500pxpx;
+            height: 2000px;
+            background: url('hockey.jpg');
+
+            background-size: contain;
+            background-position: 4px -456px;
+            font-family: 'Chela One', cursive;
+        }
+
+        .left {
+            position: fixed;
+            display: inline-block;
+            position: absolute;
+            top: 32px;
+            left: -9px;
+            width: 700px;
+            margin: 10px;
+        }
+
+        .mid {
+            border: 10px groove #466e91;
+            width: 395px;
+            border-radius: 57px;
+            height: 326px;
+            display: inline-block;
+            position: absolute;
+            top: 153px;
+            right: 38px;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 46px;
+            right: 83px;
+
+            width: 318px;
+        }
+
+        .header {
+            border: 5px groove #233142;
+            height: 89px;
+            border-radius: 15px;
+            margin: 20px 30px;
+        }
+
+        .navbar {}
+
+        .navbar li {
+            display: inline-block;
+            list-style: none;
+        }
+
+        .navbar li a {
+            font-size: 28px;
+            color: black;
+            padding: 4px 18px;
+            margin: 10px 3px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            color: blue;
+        }
+
+        .btn {
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: #63759d;
+            margin: 15px 6px;
+            padding: -14px 4px;
+            font-size: 23px;
+            cursor: pointer;
+            width: 41%;
+            font-family: 'Chela One', cursive;
+        }
+
+        .btn:hover {
+            background-color: aliceblue;
+        }
+
+        .mid {
+            text-align: center;
+        }
+
+        .in {
+
+
+            margin: 10px auto;
+
+        }
+
+        .p {
+            text-align: center;
+            width: 250px;
+            height: 32px;
+        }
+
+        .button {
+            margin-left: 44px;
+            border: 2px solid black;
+            text-align: center;
+            width: 286px;
+            padding-left: 9px;
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Log in</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="mid">
+        <h1>Join Us Now</h1>
+        <div class="in">
+            <input type="text" class="p" placeholder="Your First Name">
+        </div>
+        <div class="in">
+            <input type="text" class="p" placeholder="Your Last Name">
+        </div>
+        <div class="in">
+            <input type="text" class="p" placeholder="Your Email">
+        </div>
+        <div class="in">
+            <input type="text" class="p" placeholder="Create Paswword">
+        </div>
+        <div class="in">
+            Male<input type="checkbox" name="Gender" id="as">
+            Female<input type="checkbox" name="Gender" id="as">
+            Other<input type="checkbox" name="Gender" id="as">
+
+        </div>
+        <div class="">
+            <button class="button" type="submit">Submit Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
